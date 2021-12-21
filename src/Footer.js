@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <p>
-      Coded by
+      Coded by{" "}
       <a
         href="https://www.instagram.com/amanvalpanesar/"
         target="_blank"
@@ -11,17 +11,18 @@ export default function Footer() {
         rel="noreferrer"
       >
         Amanpreet Panesar
-      </a>
-      open-sourced on
+      </a>{" "}
+      open-sourced on{" "}
       <a
         href="https://github.com/akpanesar/react-weather-search-engine"
         target="_blank"
         title="Github Profile"
         rel="noreferrer"
       >
+        {" "}
         Github
-      </a>
-      hosted on
+      </a>{" "}
+      hosted on{" "}
       <a
         href="https://www.netlify.com/"
         target="_blank"
